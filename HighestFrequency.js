@@ -2,15 +2,19 @@
 
 function HighestFrequency(arr){
 
+    
     const result = {};
     for (let i = 0; i < arr.length; i++)
     {
-        result.hasOwnProperty(arr[i]) ? result[arr[i]] = result[arr[i]] + 1 : Object.assign(result, {
-            [arr[i]]:1
-        })    
+      if(result.hasOwnProperty(arr[i])){
+        result[arr[i]]=result[arr[i]]+1;
+      }
+      else{
+        result[arr[i]]=1;
+      }   
     }
 
-    return Object.keys(result).reduce((a,b)=>result[a]>result[b]?a:b)
+    return result
 }
 
 
