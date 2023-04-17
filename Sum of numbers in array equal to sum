@@ -1,0 +1,33 @@
+Question:
+
+
+Given a number K and an array of Unique numbers N, write an application to find and print all the pairs in N that have an equal sum to K.
+
+
+
+Code
+
+//sumNumbers(10,[2,3,5,5])
+//output:[5,5]
+sumNumbers(5, [1, 2, 3, 4, 5]) // output: [1, 4, 2, 3]
+//expect (jest.)
+
+function sumNumbers(N,arr){
+
+  let result=[];
+  let sum={};
+  
+  for(let i=0;i<arr.length;i++){
+   const temp=N-arr[i];
+    if(sum[temp]){
+      result.push(arr[i]);
+      result.push(temp);
+    }
+    else
+    sum[arr[i]]=true;
+    }
+
+  console.log(result);
+  
+  
+  }
