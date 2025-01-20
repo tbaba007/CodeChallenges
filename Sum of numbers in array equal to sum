@@ -1,7 +1,4 @@
-Question:
-
-
-Given a number K and an array of Unique numbers N, write an application to find and print all the pairs in N that have an equal sum to K.
+// Question: Given a number K and an array of Unique numbers N, write an application to find and print all the pairs in N that have an equal sum to K.
 
 
 
