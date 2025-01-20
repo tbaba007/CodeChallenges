@@ -1,3 +1,5 @@
+Question: Given an array of numbers, write a function to count the number of item occurence and group them
+
 function groupBy(arr){
 
 return arr.reduce((names,value)=>{
