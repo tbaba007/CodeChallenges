@@ -1,4 +1,4 @@
-
+Question: Given an array of numbers, write a function to return the highest frequency of items in the array
 
 function HighestFrequency(arr){
 
