@@ -1,7 +1,7 @@
 console.log(reverseArray(['a','b','c']))
 
 
-Question: reverse the array without using array.reverse()
+// Question: reverse the array without using array.reverse()
 function reverseArray(arr){
   let result=[];
   if(arr && arr.length>0){
