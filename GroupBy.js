@@ -1,4 +1,4 @@
-Question: Given an array of numbers, write a function to count the number of item occurence and group them
+// Question: Given an array of numbers, write a function to count the number of item occurence and group them
 
 function groupBy(arr){
 
